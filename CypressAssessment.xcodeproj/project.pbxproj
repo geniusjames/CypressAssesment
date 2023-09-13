@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0ECA01D729F2EE62D9BC95 /* Pods_CypressAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4F1FAB4117F28F83EEF788 /* Pods_CypressAssessment.framework */; };
+		55191F602AB0A0DF00505494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F5F2AB0A0DF00505494 /* AppDelegate.swift */; };
+		55191F622AB0A0DF00505494 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F612AB0A0DF00505494 /* SceneDelegate.swift */; };
+		55191F642AB0A0DF00505494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F632AB0A0DF00505494 /* ViewController.swift */; };
+		55191F672AB0A0DF00505494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55191F652AB0A0DF00505494 /* Main.storyboard */; };
+		55191F692AB0A0E000505494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55191F682AB0A0E000505494 /* Assets.xcassets */; };
+		55191F6C2AB0A0E100505494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55191F6A2AB0A0E100505494 /* LaunchScreen.storyboard */; };
+		55191F772AB0A0E100505494 /* CypressAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F762AB0A0E100505494 /* CypressAssessmentTests.swift */; };
+		55191F812AB0A0E100505494 /* CypressAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F802AB0A0E100505494 /* CypressAssessmentUITests.swift */; };
+		55191F832AB0A0E100505494 /* CypressAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F822AB0A0E100505494 /* CypressAssessmentUITestsLaunchTests.swift */; };
+		55191F942AB11F2C00505494 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F932AB11F2C00505494 /* AlbumViewController.swift */; };
+		55191F962AB11F9600505494 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F952AB11F9600505494 /* AlbumCollectionViewCell.swift */; };
+		55191F982AB1200600505494 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F972AB1200600505494 /* ImageCell.swift */; };
+		55191F9A2AB1BCEE00505494 /* CachedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F992AB1BCEE00505494 /* CachedImage.swift */; };
+		55191F9C2AB1BD2900505494 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F9B2AB1BD2900505494 /* ImageCacheManager.swift */; };
+		55191F9F2AB1C19400505494 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191F9E2AB1C19400505494 /* Image.swift */; };
+		55191FA12AB1C32D00505494 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA02AB1C32D00505494 /* CacheManager.swift */; };
+		55191FA42AB1D7C300505494 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA32AB1D7C300505494 /* NetworkService.swift */; };
+		55191FA72AB1DF6E00505494 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA62AB1DF6E00505494 /* AlbumViewModel.swift */; };
+		55191FA92AB2098100505494 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA82AB2098100505494 /* Album.swift */; };
+		848B72B06DF8342EB7AF808A /* Pods_CypressAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49720D38CABCA5F037648FC /* Pods_CypressAssessmentTests.framework */; };
+		E83A103EA7067F2E1EB72FB6 /* Pods_CypressAssessment_CypressAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E15F51E1708DAF4C858DD8 /* Pods_CypressAssessment_CypressAssessmentUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55191F732AB0A0E100505494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55191F542AB0A0DF00505494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55191F5B2AB0A0DF00505494;
+			remoteInfo = CypressAssessment;
+		};
+		55191F7D2AB0A0E100505494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55191F542AB0A0DF00505494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55191F5B2AB0A0DF00505494;
+			remoteInfo = CypressAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130102FDB8B2B28084545598 /* Pods-CypressAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessment.debug.xcconfig"; path = "Target Support Files/Pods-CypressAssessment/Pods-CypressAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		19B30C718DFFE67C0DF3FF8B /* Pods-CypressAssessment-CypressAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessment-CypressAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-CypressAssessment-CypressAssessmentUITests/Pods-CypressAssessment-CypressAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E245D236BEC156CE6261BF1 /* Pods-CypressAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-CypressAssessmentTests/Pods-CypressAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55191F5C2AB0A0DF00505494 /* CypressAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypressAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55191F5F2AB0A0DF00505494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55191F612AB0A0DF00505494 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55191F632AB0A0DF00505494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55191F662AB0A0DF00505494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55191F682AB0A0E000505494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55191F6B2AB0A0E100505494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55191F6D2AB0A0E100505494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55191F722AB0A0E100505494 /* CypressAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypressAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55191F762AB0A0E100505494 /* CypressAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypressAssessmentTests.swift; sourceTree = "<group>"; };
+		55191F7C2AB0A0E100505494 /* CypressAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypressAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55191F802AB0A0E100505494 /* CypressAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypressAssessmentUITests.swift; sourceTree = "<group>"; };
+		55191F822AB0A0E100505494 /* CypressAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypressAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55191F932AB11F2C00505494 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		55191F952AB11F9600505494 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		55191F972AB1200600505494 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		55191F992AB1BCEE00505494 /* CachedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImage.swift; sourceTree = "<group>"; };
+		55191F9B2AB1BD2900505494 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		55191F9E2AB1C19400505494 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		55191FA02AB1C32D00505494 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		55191FA32AB1D7C300505494 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		55191FA62AB1DF6E00505494 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		55191FA82AB2098100505494 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		7C4F1FAB4117F28F83EEF788 /* Pods_CypressAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypressAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B989013785BABAB483F4A1 /* Pods-CypressAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-CypressAssessmentTests/Pods-CypressAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF0733D960547AE3D1A3A8B /* Pods-CypressAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessment.release.xcconfig"; path = "Target Support Files/Pods-CypressAssessment/Pods-CypressAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		E2E15F51E1708DAF4C858DD8 /* Pods_CypressAssessment_CypressAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypressAssessment_CypressAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2852A793E823BC711639C64 /* Pods-CypressAssessment-CypressAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessment-CypressAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-CypressAssessment-CypressAssessmentUITests/Pods-CypressAssessment-CypressAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F49720D38CABCA5F037648FC /* Pods_CypressAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypressAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55191F592AB0A0DF00505494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0ECA01D729F2EE62D9BC95 /* Pods_CypressAssessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55191F6F2AB0A0E100505494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848B72B06DF8342EB7AF808A /* Pods_CypressAssessmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55191F792AB0A0E100505494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83A103EA7067F2E1EB72FB6 /* Pods_CypressAssessment_CypressAssessmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B056E0778E94E0A4B28B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F1FAB4117F28F83EEF788 /* Pods_CypressAssessment.framework */,
+				E2E15F51E1708DAF4C858DD8 /* Pods_CypressAssessment_CypressAssessmentUITests.framework */,
+				F49720D38CABCA5F037648FC /* Pods_CypressAssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20BE19CD8266432F2C61F608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				130102FDB8B2B28084545598 /* Pods-CypressAssessment.debug.xcconfig */,
+				CDF0733D960547AE3D1A3A8B /* Pods-CypressAssessment.release.xcconfig */,
+				F2852A793E823BC711639C64 /* Pods-CypressAssessment-CypressAssessmentUITests.debug.xcconfig */,
+				19B30C718DFFE67C0DF3FF8B /* Pods-CypressAssessment-CypressAssessmentUITests.release.xcconfig */,
+				4E245D236BEC156CE6261BF1 /* Pods-CypressAssessmentTests.debug.xcconfig */,
+				C2B989013785BABAB483F4A1 /* Pods-CypressAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55191F532AB0A0DF00505494 = {
+			isa = PBXGroup;
+			children = (
+				55191F5E2AB0A0DF00505494 /* CypressAssessment */,
+				55191F752AB0A0E100505494 /* CypressAssessmentTests */,
+				55191F7F2AB0A0E100505494 /* CypressAssessmentUITests */,
+				55191F5D2AB0A0DF00505494 /* Products */,
+				20BE19CD8266432F2C61F608 /* Pods */,
+				04B056E0778E94E0A4B28B29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55191F5D2AB0A0DF00505494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55191F5C2AB0A0DF00505494 /* CypressAssessment.app */,
+				55191F722AB0A0E100505494 /* CypressAssessmentTests.xctest */,
+				55191F7C2AB0A0E100505494 /* CypressAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55191F5E2AB0A0DF00505494 /* CypressAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				55191FA52AB1DF5400505494 /* ViewModels */,
+				55191FA22AB1D7A600505494 /* Network */,
+				55191F922AB11EF500505494 /* App */,
+				55191F912AB11EE100505494 /* Controllers */,
+				55191F902AB11ED700505494 /* Views */,
+				55191F8F2AB11ECE00505494 /* Models */,
+				55191F632AB0A0DF00505494 /* ViewController.swift */,
+				55191F652AB0A0DF00505494 /* Main.storyboard */,
+				55191F682AB0A0E000505494 /* Assets.xcassets */,
+				55191F6A2AB0A0E100505494 /* LaunchScreen.storyboard */,
+				55191F6D2AB0A0E100505494 /* Info.plist */,
+			);
+			path = CypressAssessment;
+			sourceTree = "<group>";
+		};
+		55191F752AB0A0E100505494 /* CypressAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				55191F762AB0A0E100505494 /* CypressAssessmentTests.swift */,
+			);
+			path = CypressAssessmentTests;
+			sourceTree = "<group>";
+		};
+		55191F7F2AB0A0E100505494 /* CypressAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55191F802AB0A0E100505494 /* CypressAssessmentUITests.swift */,
+				55191F822AB0A0E100505494 /* CypressAssessmentUITestsLaunchTests.swift */,
+			);
+			path = CypressAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		55191F8F2AB11ECE00505494 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55191F9D2AB1C17B00505494 /* codables */,
+				55191F992AB1BCEE00505494 /* CachedImage.swift */,
+				55191F9B2AB1BD2900505494 /* ImageCacheManager.swift */,
+				55191FA02AB1C32D00505494 /* CacheManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55191F902AB11ED700505494 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55191F972AB1200600505494 /* ImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55191F912AB11EE100505494 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55191F932AB11F2C00505494 /* AlbumViewController.swift */,
+				55191F952AB11F9600505494 /* AlbumCollectionViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55191F922AB11EF500505494 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55191F5F2AB0A0DF00505494 /* AppDelegate.swift */,
+				55191F612AB0A0DF00505494 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55191F9D2AB1C17B00505494 /* codables */ = {
+			isa = PBXGroup;
+			children = (
+				55191F9E2AB1C19400505494 /* Image.swift */,
+				55191FA82AB2098100505494 /* Album.swift */,
+			);
+			path = codables;
+			sourceTree = "<group>";
+		};
+		55191FA22AB1D7A600505494 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				55191FA32AB1D7C300505494 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		55191FA52AB1DF5400505494 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				55191FA62AB1DF6E00505494 /* AlbumViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55191F5B2AB0A0DF00505494 /* CypressAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55191F862AB0A0E100505494 /* Build configuration list for PBXNativeTarget "CypressAssessment" */;
+			buildPhases = (
+				76264656BDAD7667EDCA1E3B /* [CP] Check Pods Manifest.lock */,
+				55191F582AB0A0DF00505494 /* Sources */,
+				55191F592AB0A0DF00505494 /* Frameworks */,
+				55191F5A2AB0A0DF00505494 /* Resources */,
+				68B300443D18501C7532E817 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CypressAssessment;
+			productName = CypressAssessment;
+			productReference = 55191F5C2AB0A0DF00505494 /* CypressAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55191F712AB0A0E100505494 /* CypressAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55191F892AB0A0E100505494 /* Build configuration list for PBXNativeTarget "CypressAssessmentTests" */;
+			buildPhases = (
+				B023CC73BC36A0962C7591DB /* [CP] Check Pods Manifest.lock */,
+				55191F6E2AB0A0E100505494 /* Sources */,
+				55191F6F2AB0A0E100505494 /* Frameworks */,
+				55191F702AB0A0E100505494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55191F742AB0A0E100505494 /* PBXTargetDependency */,
+			);
+			name = CypressAssessmentTests;
+			productName = CypressAssessmentTests;
+			productReference = 55191F722AB0A0E100505494 /* CypressAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55191F7B2AB0A0E100505494 /* CypressAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55191F8C2AB0A0E100505494 /* Build configuration list for PBXNativeTarget "CypressAssessmentUITests" */;
+			buildPhases = (
+				50FEB036BEAF7C17DDA9C1FD /* [CP] Check Pods Manifest.lock */,
+				55191F782AB0A0E100505494 /* Sources */,
+				55191F792AB0A0E100505494 /* Frameworks */,
+				55191F7A2AB0A0E100505494 /* Resources */,
+				649FC55E76DC97EA2E3E90DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55191F7E2AB0A0E100505494 /* PBXTargetDependency */,
+			);
+			name = CypressAssessmentUITests;
+			productName = CypressAssessmentUITests;
+			productReference = 55191F7C2AB0A0E100505494 /* CypressAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55191F542AB0A0DF00505494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					55191F5B2AB0A0DF00505494 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					55191F712AB0A0E100505494 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 55191F5B2AB0A0DF00505494;
+					};
+					55191F7B2AB0A0E100505494 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 55191F5B2AB0A0DF00505494;
+					};
+				};
+			};
+			buildConfigurationList = 55191F572AB0A0DF00505494 /* Build configuration list for PBXProject "CypressAssessment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55191F532AB0A0DF00505494;
+			productRefGroup = 55191F5D2AB0A0DF00505494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55191F5B2AB0A0DF00505494 /* CypressAssessment */,
+				55191F712AB0A0E100505494 /* CypressAssessmentTests */,
+				55191F7B2AB0A0E100505494 /* CypressAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55191F5A2AB0A0DF00505494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55191F6C2AB0A0E100505494 /* LaunchScreen.storyboard in Resources */,
+				55191F692AB0A0E000505494 /* Assets.xcassets in Resources */,
+				55191F672AB0A0DF00505494 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55191F702AB0A0E100505494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55191F7A2AB0A0E100505494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50FEB036BEAF7C17DDA9C1FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypressAssessment-CypressAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649FC55E76DC97EA2E3E90DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypressAssessment-CypressAssessmentUITests/Pods-CypressAssessment-CypressAssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypressAssessment-CypressAssessmentUITests/Pods-CypressAssessment-CypressAssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CypressAssessment-CypressAssessmentUITests/Pods-CypressAssessment-CypressAssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B300443D18501C7532E817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypressAssessment/Pods-CypressAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypressAssessment/Pods-CypressAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CypressAssessment/Pods-CypressAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76264656BDAD7667EDCA1E3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypressAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B023CC73BC36A0962C7591DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypressAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55191F582AB0A0DF00505494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55191FA92AB2098100505494 /* Album.swift in Sources */,
+				55191FA72AB1DF6E00505494 /* AlbumViewModel.swift in Sources */,
+				55191FA42AB1D7C300505494 /* NetworkService.swift in Sources */,
+				55191F942AB11F2C00505494 /* AlbumViewController.swift in Sources */,
+				55191F9F2AB1C19400505494 /* Image.swift in Sources */,
+				55191F642AB0A0DF00505494 /* ViewController.swift in Sources */,
+				55191F602AB0A0DF00505494 /* AppDelegate.swift in Sources */,
+				55191F9A2AB1BCEE00505494 /* CachedImage.swift in Sources */,
+				55191F9C2AB1BD2900505494 /* ImageCacheManager.swift in Sources */,
+				55191FA12AB1C32D00505494 /* CacheManager.swift in Sources */,
+				55191F622AB0A0DF00505494 /* SceneDelegate.swift in Sources */,
+				55191F962AB11F9600505494 /* AlbumCollectionViewCell.swift in Sources */,
+				55191F982AB1200600505494 /* ImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55191F6E2AB0A0E100505494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55191F772AB0A0E100505494 /* CypressAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55191F782AB0A0E100505494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55191F832AB0A0E100505494 /* CypressAssessmentUITestsLaunchTests.swift in Sources */,
+				55191F812AB0A0E100505494 /* CypressAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55191F742AB0A0E100505494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55191F5B2AB0A0DF00505494 /* CypressAssessment */;
+			targetProxy = 55191F732AB0A0E100505494 /* PBXContainerItemProxy */;
+		};
+		55191F7E2AB0A0E100505494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55191F5B2AB0A0DF00505494 /* CypressAssessment */;
+			targetProxy = 55191F7D2AB0A0E100505494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55191F652AB0A0DF00505494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55191F662AB0A0DF00505494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55191F6A2AB0A0E100505494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55191F6B2AB0A0E100505494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55191F842AB0A0E100505494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55191F852AB0A0E100505494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55191F872AB0A0E100505494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130102FDB8B2B28084545598 /* Pods-CypressAssessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4GW3N59A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CypressAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.CypressAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55191F882AB0A0E100505494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF0733D960547AE3D1A3A8B /* Pods-CypressAssessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4GW3N59A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CypressAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.CypressAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55191F8A2AB0A0E100505494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E245D236BEC156CE6261BF1 /* Pods-CypressAssessmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4GW3N59A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.CypressAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypressAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CypressAssessment";
+			};
+			name = Debug;
+		};
+		55191F8B2AB0A0E100505494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B989013785BABAB483F4A1 /* Pods-CypressAssessmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4GW3N59A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.CypressAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypressAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CypressAssessment";
+			};
+			name = Release;
+		};
+		55191F8D2AB0A0E100505494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2852A793E823BC711639C64 /* Pods-CypressAssessment-CypressAssessmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4GW3N59A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.CypressAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CypressAssessment;
+			};
+			name = Debug;
+		};
+		55191F8E2AB0A0E100505494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B30C718DFFE67C0DF3FF8B /* Pods-CypressAssessment-CypressAssessmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4GW3N59A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.CypressAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CypressAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55191F572AB0A0DF00505494 /* Build configuration list for PBXProject "CypressAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55191F842AB0A0E100505494 /* Debug */,
+				55191F852AB0A0E100505494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55191F862AB0A0E100505494 /* Build configuration list for PBXNativeTarget "CypressAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55191F872AB0A0E100505494 /* Debug */,
+				55191F882AB0A0E100505494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55191F892AB0A0E100505494 /* Build configuration list for PBXNativeTarget "CypressAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55191F8A2AB0A0E100505494 /* Debug */,
+				55191F8B2AB0A0E100505494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55191F8C2AB0A0E100505494 /* Build configuration list for PBXNativeTarget "CypressAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55191F8D2AB0A0E100505494 /* Debug */,
+				55191F8E2AB0A0E100505494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55191F542AB0A0DF00505494 /* Project object */;
+}
