@@ -27,6 +27,7 @@
 		55191FA42AB1D7C300505494 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA32AB1D7C300505494 /* NetworkService.swift */; };
 		55191FA72AB1DF6E00505494 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA62AB1DF6E00505494 /* AlbumViewModel.swift */; };
 		55191FA92AB2098100505494 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FA82AB2098100505494 /* Album.swift */; };
+		55191FAC2AB246C800505494 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55191FAB2AB246C800505494 /* SectionHeader.swift */; };
 		848B72B06DF8342EB7AF808A /* Pods_CypressAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49720D38CABCA5F037648FC /* Pods_CypressAssessmentTests.framework */; };
 		E83A103EA7067F2E1EB72FB6 /* Pods_CypressAssessment_CypressAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E15F51E1708DAF4C858DD8 /* Pods_CypressAssessment_CypressAssessmentUITests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		55191FA32AB1D7C300505494 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		55191FA62AB1DF6E00505494 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
 		55191FA82AB2098100505494 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		55191FAB2AB246C800505494 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		7C4F1FAB4117F28F83EEF788 /* Pods_CypressAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypressAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B989013785BABAB483F4A1 /* Pods-CypressAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-CypressAssessmentTests/Pods-CypressAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		CDF0733D960547AE3D1A3A8B /* Pods-CypressAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypressAssessment.release.xcconfig"; path = "Target Support Files/Pods-CypressAssessment/Pods-CypressAssessment.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				55191F952AB11F9600505494 /* AlbumCollectionViewCell.swift */,
+				55191FAB2AB246C800505494 /* SectionHeader.swift */,
 				55191F972AB1200600505494 /* ImageCell.swift */,
 			);
 			path = Views;
@@ -510,6 +513,7 @@
 				55191F9A2AB1BCEE00505494 /* CachedImage.swift in Sources */,
 				55191F9C2AB1BD2900505494 /* ImageCacheManager.swift in Sources */,
 				55191FA12AB1C32D00505494 /* CacheManager.swift in Sources */,
+				55191FAC2AB246C800505494 /* SectionHeader.swift in Sources */,
 				55191F622AB0A0DF00505494 /* SceneDelegate.swift in Sources */,
 				55191F962AB11F9600505494 /* AlbumCollectionViewCell.swift in Sources */,
 				55191F982AB1200600505494 /* ImageCell.swift in Sources */,

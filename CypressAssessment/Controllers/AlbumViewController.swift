@@ -56,8 +56,11 @@ class AlbumViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        view.backgroundColor = .white
         collectionView.snp.remakeConstraints { make in
-            make.edges.equalToSuperview()
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            make.leading.trailing.equalToSuperview()
         }
     }
     
@@ -133,32 +136,4 @@ class AlbumViewController: UIViewController {
     }
 
 
-}
-
-class SectionHeader: UICollectionReusableView {
-    var title: String = "" {
-        didSet {
-            titleLabel.text = title
-        }
-    }
-
-    private let titleLabel: UILabel = {
-        let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 18)
-        return label
-    }()
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        addSubview(titleLabel)
-        titleLabel.snp.makeConstraints { make in
-            make.leading.equalToSuperview().offset(16)
-            make.trailing.equalToSuperview().offset(-16)
-            make.top.bottom.equalToSuperview()
-        }
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
 }
