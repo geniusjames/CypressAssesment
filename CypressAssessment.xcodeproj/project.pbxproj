@@ -159,16 +159,13 @@
 		55191F5E2AB0A0DF00505494 /* CypressAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				55191FA52AB1DF5400505494 /* ViewModels */,
-				55191FA22AB1D7A600505494 /* Network */,
-				55191F922AB11EF500505494 /* App */,
-				55191F912AB11EE100505494 /* Controllers */,
-				55191F902AB11ED700505494 /* Views */,
 				55191F8F2AB11ECE00505494 /* Models */,
-				55191F632AB0A0DF00505494 /* ViewController.swift */,
-				55191F652AB0A0DF00505494 /* Main.storyboard */,
-				55191F682AB0A0E000505494 /* Assets.xcassets */,
-				55191F6A2AB0A0E100505494 /* LaunchScreen.storyboard */,
+				55191F902AB11ED700505494 /* Views */,
+				55191FA52AB1DF5400505494 /* ViewModels */,
+				55191F912AB11EE100505494 /* Controllers */,
+				55191FA22AB1D7A600505494 /* Network */,
+				55191FAA2AB2463900505494 /* Assets */,
+				55191F922AB11EF500505494 /* App */,
 				55191F6D2AB0A0E100505494 /* Info.plist */,
 			);
 			path = CypressAssessment;
@@ -205,6 +202,7 @@
 		55191F902AB11ED700505494 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				55191F952AB11F9600505494 /* AlbumCollectionViewCell.swift */,
 				55191F972AB1200600505494 /* ImageCell.swift */,
 			);
 			path = Views;
@@ -214,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				55191F932AB11F2C00505494 /* AlbumViewController.swift */,
-				55191F952AB11F9600505494 /* AlbumCollectionViewCell.swift */,
+				55191F632AB0A0DF00505494 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -251,6 +249,16 @@
 				55191FA62AB1DF6E00505494 /* AlbumViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		55191FAA2AB2463900505494 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				55191F652AB0A0DF00505494 /* Main.storyboard */,
+				55191F682AB0A0E000505494 /* Assets.xcassets */,
+				55191F6A2AB0A0E100505494 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

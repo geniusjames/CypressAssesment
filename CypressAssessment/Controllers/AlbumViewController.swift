@@ -136,7 +136,7 @@ class AlbumViewController: UIViewController {
 }
 
 class SectionHeader: UICollectionReusableView {
-    var title: String = "Name" {
+    var title: String = "" {
         didSet {
             titleLabel.text = title
         }
